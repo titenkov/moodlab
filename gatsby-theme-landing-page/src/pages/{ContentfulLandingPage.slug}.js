@@ -30,6 +30,10 @@ export const query = graphql`
           url
         }
       }
+      logo: image {
+        gatsbyImageData(layout: FIXED, width: 200, height: 30)
+        title
+      }
       sections {
         id
         component

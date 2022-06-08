@@ -41,6 +41,8 @@
 .footer {
   composes: container;
   display: flex;
+  flex-direction: column;
+  text-align: center;
   gap: var(--space-3);
 }
 
@@ -55,4 +57,8 @@
 .footer a:focus {
   text-decoration: underline;
   color: var(--link-hover-color);
+}
+
+.logo {
+  width: 200px;
 }

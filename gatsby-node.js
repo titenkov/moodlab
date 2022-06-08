@@ -8,6 +8,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       image: ContentfulAsset @link(by: "id", from: "image___NODE")
+      logo: ContentfulAsset
       sections: [ContentfulLandingPageSection] @link(by: "id", from: "sections___NODE")
     }
 
