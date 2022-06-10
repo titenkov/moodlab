@@ -4,7 +4,7 @@ import { Head } from "gatsby-theme-landing-page";
 import "../styles.css";
 import * as cssVars from "gatsby-theme-landing-page/src/styles/variables.module.css";
 import * as styles from "./layout.module.css";
-import logoImage from '../assets/logo-beta.png'
+import logoImage from '../assets/logo.png'
 
 export default function Layout(props) {
   return (

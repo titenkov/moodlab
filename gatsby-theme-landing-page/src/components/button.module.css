@@ -25,3 +25,23 @@
   color: var(--button-secondary-color);
   background-color: var(--button-secondary-background-color);
 }
+
+.slackButton {
+  align-items:center;
+  color:#fff;
+  background-color:#4A154B;
+  border-radius:4px;
+  display:inline-flex;
+  font-size:16px;
+  font-weight:600;
+  height:48px;
+  justify-content:center;
+  text-decoration:none;
+  width:236px;
+}
+
+.slackButtonIcon {
+  height:20px;
+  width:20px;
+  margin-right:12px;
+}
